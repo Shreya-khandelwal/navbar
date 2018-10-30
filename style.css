@@ -42,7 +42,12 @@ a
 	margin-left:15px; 
 	margin-right:15px;
 }
-@media only screen and (max-width: 320px) {
+.dropdown-item
+{
+	font-size: 15px !important;
+	color: #000000 !important;
+}
+@media only screen and (max-width: 450px) {
 	.logo{
 	     height: 54px;
          width: 87px;
@@ -58,5 +63,10 @@ a
 	.collapse
 	{
 		padding-left: 0px;
+	}
+	.dropdown-item
+	{
+		font-size: 11px !important;
+		font-weight: bold !important;
 	}
 }
